@@ -75,12 +75,24 @@
 	- comm - cílový komunikátor
 	- status - ukazatel na stavový objekt
 
+## MPI_Sendrecv
+- Funkce pro kombinaci [[#MPI_Send]] a [[#MPI_Recv]]
+- Řeší problém s cyklickou rotací
+	- Když mám N procesů a v každém posílám svůj rank a zároveň příjímám rank od jiného
 ## MPI_Get_count
 - Ze status objektu vrátí velikost zprávy (počet přijetých prvků)
 - Parametry `const MPI_Status *status, MPI_Datatype datatype, int *count`
 	- status - ukazatel na stavový objekt
 	- datatype - typ přijatých dat
 	- count - výsledek operace
+
+## MPI_Probe a MPI_Iprobe
+- Parametry: `int source, int tag, MPI_Comm comm, MPI_Status * status`
+	- Blokující má navíc parametr `int *flag`, kam ukládá bool hodnotu podle toho, zdali existuje v systému ta zpráva, která by šla s danými parametry přijmout
+- Testování příchodu zprávy bez jejího přijetí
+- Blokující varianta se vrací až poté, co j e zpráva dostupná k přijetí
+- Lze jej použít pouze, pokud je následné čtení bezkonfliktní (nepopere se o něj více vláken)
+	- Pokud tohle není, můžeme použít varianty `MPI_Improbe` a následně `MPI_Mrecv` , kde první z nich "zarezervuje zprávu" a vrací dále i `MPI_Message` objekt, který se posílá do druhé funkce, která ověří rezervaci a přečtě zprávu
 # Skupiny procesů
 - Každý proces v MPI se nachází ve skupině
 - V rámci skupiny jsou procesy číslovány od 0 do $p-1$
@@ -113,3 +125,18 @@
 	- `MPI_SOURCE` - [[#MPI_Comm_rank]] zdrojového procesu
 	- `MPI_TAG` - tag dané zprávy
 - Pomocí funkce 
+
+# Ošetření a obsluha chyb v MPI 
+- Téměř všechny MPI funkce vracejí `int`, který představuje úspěšnost operace
+- MPI definuje několik druhů chyb, ale my budeme probírat pouze chyby vázané na komunikátor
+
+## Reakce na chyby
+1. `MPI_ERRORS_ARE_FATAL`
+	- V případě chyby abortuje celý program (všechny procesy)
+	- Interně volají `MPI_Abort`
+2. `MPI_ERROR_RETURN`
+	- MPI funkce vrátí chybový kód, ale stav MPI výpočtu poté není definovaný
+	- Většinou to tedy neznamená, že po zachycení chyby tímto mechanismem lze ve výpočtu pokračovat
+	- Ošetření chybových funkcí se nastavuje pomocí `MPI_Comm_set_errhandler`
+3. `MPI_ERRORS_ABORT`
+	- Ukončí pouze procesy spojené s komunikátorem, kde došlo k selhání

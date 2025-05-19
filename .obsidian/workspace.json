@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/MPI/MPI - Message Passing Interface.md",
+                "file": "PDP/Propojovací sítě/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MPI - Message Passing Interface"
+              "title": "Untitled"
             }
           }
         ]
@@ -170,13 +170,15 @@
   },
   "active": "37c2c6923c22643f",
   "lastOpenFiles": [
-    "PDP/Úvod/Paralelní a distribuované počítače.md",
+    "PDP/index.md",
+    "PDP/Propojovací sítě/Untitled.md",
+    "PDP/Propojovací sítě",
     "PDP/MPI/MPI - Message Passing Interface.md",
+    "PDP/Úvod/Paralelní a distribuované počítače.md",
     "PDP/Prohledávání prostoru/Zásobník.md",
     "PDP/MPI",
     "PDP/Prohledávání prostoru/DFS.md",
     "PDP/Prohledávání prostoru/Prohledávání kombinatorického stavového prostoru.md",
-    "PDP/index.md",
     "PDP/Prohledávání prostoru",
     "PDP/Úvod/Složitosti.md",
     "Untitled",
