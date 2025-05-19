@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "5823a7d790826c08",
+    "type": "split",
+    "children": [
+      {
+        "id": "10e2510f4ec2cd46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37c2c6923c22643f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PDP/MPI/MPI - Message Passing Interface.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MPI - Message Passing Interface"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c9daffcdeaf8f08",
+    "type": "split",
+    "children": [
+      {
+        "id": "be310e7d2e7d693a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ca439199cb116c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fd6abfe6e0a6dfe7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "62c4a15cc0be2ca1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3c991491ac20da37",
+    "type": "split",
+    "children": [
+      {
+        "id": "c36ebe8f356f5fb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d9a3a89072f9b32",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PDP/Úvod/Složitosti.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Složitosti"
+            }
+          },
+          {
+            "id": "a5ba92f2449197fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PDP/Úvod/Složitosti.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Složitosti"
+            }
+          },
+          {
+            "id": "57ccb8cc59291fbf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "356f8739d9576205",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PDP/Úvod/Složitosti.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Složitosti"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "37c2c6923c22643f",
+  "lastOpenFiles": [
+    "PDP/Úvod/Paralelní a distribuované počítače.md",
+    "PDP/MPI/MPI - Message Passing Interface.md",
+    "PDP/Prohledávání prostoru/Zásobník.md",
+    "PDP/MPI",
+    "PDP/Prohledávání prostoru/DFS.md",
+    "PDP/Prohledávání prostoru/Prohledávání kombinatorického stavového prostoru.md",
+    "PDP/index.md",
+    "PDP/Prohledávání prostoru",
+    "PDP/Úvod/Složitosti.md",
+    "Untitled",
+    "PDP/OpenMP/index.md",
+    "PDP/OpenMP/image.png"
+  ]
+}

@@ -1,0 +1,2 @@
+- Jedná se o záznam, toho, kde jsem
+- Budeme chtít zásobník využít pro paralelizaci
