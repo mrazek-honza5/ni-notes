@@ -1,4 +1,6 @@
 {
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileFolderPath": "PDP/Images",
+  "attachmentFolderPath": "attachments"
 }

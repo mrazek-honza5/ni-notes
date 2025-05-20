@@ -285,7 +285,7 @@
 
 ### Klauzule
 * `if(podmínka)` - pokud je `true`, kód je předán ke zpracování do task poolu. Pokud ne, tak je proveden tím stejným vláknem
-* `final(výraz)` - pokud je výraz pravdívý, nebude úloha generovat další úlohy
+* `final(výraz)` - pokud je výraz pravdivý, nebude úloha generovat další úlohy
 * `priority(výraz)` - přiřadí dceřiné úloze prioritu
 
 # OpenMP funkce
@@ -304,7 +304,7 @@
     * `max-active-levels-var` - maximální hloubka zanoření paralelních oblastí
 
 # Algoritmus přiřazení počtu vláken
-![thread count](image.png)
+![thread count](attachments/image.png)
 
 
 # Výkon a typické problémy v OpenMP

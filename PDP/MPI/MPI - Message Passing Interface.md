@@ -15,7 +15,7 @@
 # Funkce MPI
 ## MPI_Init_thread
 - Parametry - nemá
-- Vrací v proměnné zaručenou místu spolupráce MPI s vlákny (dělení procesu, jako v semestrálce)
+- Vrací v proměnné zaručenou míru spolupráce MPI s vlákny (dělení procesu, jako v semestrálce)
 - Ta může mít následující hodnoty (reálné hodnoty jsou číselné a vzestupné):
 	- `MPI_THREAD_SINGLE` - pouze MPI, procesy se nedělí na vlákna
 	- `MPI_THREAD_FUNNELED` - vícevláknové procesy s omezením, že pouze hlavní vlákno může volat funkce MPI (jednoportový model)

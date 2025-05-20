@@ -21,7 +21,7 @@
 7. **Cloud computing** 
     * Datová centra
 
-![Znázornění hierarchie](image.png)
+![Znázornění hierarchie](image%201.png)
 
 # Modely paralelních systémů
 * Modely výpočetního stroje
