@@ -1,3 +1,3 @@
 # NI-PDP Běh 2025
 
-1. [OpenMP](OpenMP/index.md)
+1. [OpenMP](OpenMP.md)

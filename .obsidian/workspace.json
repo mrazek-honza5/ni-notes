@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Otázky na zkoušku/6. OpenMP datový paralelismus (direktiva for), sémantika, parametry..md",
+                "file": "PDP/Otázky na zkoušku/5. OpenMP programový model, paralelní oblast, vlastnosti proměnných.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. OpenMP datový paralelismus (direktiva for), sémantika, parametry."
+              "title": "5. OpenMP programový model, paralelní oblast, vlastnosti proměnných"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/OpenMP/index.md",
+                "file": "PDP/OpenMP/OpenMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "OpenMP"
             }
           }
         ]
@@ -190,9 +190,9 @@
   },
   "active": "37c2c6923c22643f",
   "lastOpenFiles": [
-    "PDP/Otázky na zkoušku/5. OpenMP programový model, paralelní oblast, vlastnosti proměnných.md",
     "PDP/Otázky na zkoušku/6. OpenMP datový paralelismus (direktiva for), sémantika, parametry..md",
-    "PDP/OpenMP/index.md",
+    "PDP/OpenMP/OpenMP.md",
+    "PDP/Otázky na zkoušku/5. OpenMP programový model, paralelní oblast, vlastnosti proměnných.md",
     "PDP/Úvod/Složitosti.md",
     "PDP/Otázky na zkoušku/4. Amdahlův zákon, Gustafsonův zákon a izoefektivní funkce.md",
     "PDP/Otázky na zkoušku/3. Paralelní čas, zrychlení, cena, efektivnost a paralelní optimalita výkonnosti..md",

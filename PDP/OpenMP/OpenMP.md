@@ -1,4 +1,3 @@
-# OpenMP
 * Knihovna pro paralelní výpočty
 * Paradigma SPMD - Single Process Multiple Data
 * Pracuje nad sdílenou pamětí s volnější konzistencí
@@ -227,6 +226,7 @@
             }
         }
         ```
+        
     2. **Paralelizace GEM 2**
         ```cpp
         int ge2(float **A, *y, int n) 
