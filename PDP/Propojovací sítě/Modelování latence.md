@@ -1,0 +1,15 @@
+- Máme druhy komunikace
+	- OAB - One-to-All Broadcast
+		- Jeden uzel posílá všem stejnou zprávu
+		- `MPI_Bcast`, `MPI_Ibcast`
+	- OAS - One-to-All Scatter
+		- Jeden uzel posílá jinou zprávu všem ostatním uzlům
+		- `MPI_Scatter`, `MPI_Scatterv`, `MPI_Iscatter`, `MPI_Iscatterv`
+	- AOG - All-to-One Gather
+		- Všechny uzly posílají zprávu na jeden uzel
+	- AAG - All-to-All Gather
+		- Kompletní exchange, všechny uzly provádějí broadcast
+	- AAS - All-to-All Scatter
+		- Všechny uzly provádějí scatter současně
+	- MC - Multicast 
+		- Jeden uzel posílá stejnou zprávu vybrané množině uzlů

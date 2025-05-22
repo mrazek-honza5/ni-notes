@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "10e2510f4ec2cd46",
+        "id": "3153b77506fc61cb",
         "type": "tabs",
         "children": [
           {
-            "id": "37c2c6923c22643f",
+            "id": "3ee3a5d0402ba06e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Otázky na zkoušku/5. OpenMP programový model, paralelní oblast, vlastnosti proměnných.md",
-                "mode": "source",
+                "file": "PDP/Otázky na zkoušku/14. OpenMP základní myšlenky paralelizace QuickSortu a paralelního rozdělení..md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. OpenMP programový model, paralelní oblast, vlastnosti proměnných"
+              "title": "14. OpenMP základní myšlenky paralelizace QuickSortu a paralelního rozdělení."
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 317.5
   },
   "right": {
     "id": "3c991491ac20da37",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PDP/Úvod/Složitosti.md",
+                "file": "PDP/Otázky na zkoušku/14. OpenMP základní myšlenky paralelizace QuickSortu a paralelního rozdělení..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Složitosti"
+              "title": "Backlinks for 14. OpenMP základní myšlenky paralelizace QuickSortu a paralelního rozdělení."
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PDP/Úvod/Složitosti.md",
+                "file": "PDP/Otázky na zkoušku/14. OpenMP základní myšlenky paralelizace QuickSortu a paralelního rozdělení..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Složitosti"
+              "title": "Outgoing links from 14. OpenMP základní myšlenky paralelizace QuickSortu a paralelního rozdělení."
             }
           },
           {
@@ -151,7 +151,8 @@
               "title": "Outline of Složitosti"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,44 +169,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37c2c6923c22643f",
+  "active": "3ee3a5d0402ba06e",
   "lastOpenFiles": [
-    "PDP/OpenMP/OpenMP.md",
+    "PDP/Otázky na zkoušku/13. OpenMP formáty pro uložení řídkých matic a paralelizace násobení řídké matice vektorem..md",
+    "PDP/Otázky na zkoušku/12. OpenMP paralelizace násobení hustých matic..md",
+    "PDP/Otázky na zkoušku/11. OpenMP paralelizace násobení polynomů..md",
+    "PDP/Otázky na zkoušku/10. OpenMP paralelizace výpočtu histogramu..md",
+    "PDP/Otázky na zkoušku/9. OpenMP klasifikace paralelizovatelných programů a zdroje jejich neefektivity,falešné sdílení a jeho eliminace..md",
+    "PDP/Otázky na zkoušku/8. OpenMP synchronizační direktivy..md",
+    "PDP/Otázky na zkoušku/7. OpenMP funkční paralelismus (direktiva task), sémantika, parametry..md",
+    "PDP/Otázky na zkoušku/6. OpenMP datový paralelismus (direktiva for), sémantika, parametry..md",
     "PDP/Otázky na zkoušku/5. OpenMP programový model, paralelní oblast, vlastnosti proměnných.md",
-    "attachments/Pasted image 20250520215351.png",
     "PDP/Otázky na zkoušku/4. Amdahlův zákon, Gustafsonův zákon a izoefektivní funkce.md",
     "PDP/Otázky na zkoušku/3. Paralelní čas, zrychlení, cena, efektivnost a paralelní optimalita výkonnosti..md",
     "PDP/Otázky na zkoušku/2. APRAM model a implementace synchronizační bariéry..md",
     "PDP/Otázky na zkoušku/1. PRAM model a ošetření konfliktů při přístupu do sdílené paměti.md",
-    "PDP/Otázky na zkoušku/26. n-rozměrná hyperkrychle - definice, vlastnosti, směrování..md",
-    "attachments/Pasted image 20250520192535.png",
+    "PDP/Otázky na zkoušku/Souhrny metrik grafů.md",
+    "PDP/Otázky na zkoušku/29. Řídké hyperkubické topologie a tlusté stromy definice, vlastnosti, směrování. ed.md",
     "PDP/Otázky na zkoušku/28. n-rozměrný toroid - definice, vlastnosti, směrování..md",
-    "attachments/Pasted image 20250520192204.png",
-    "PDP/Propojovací sítě/Propojovací sítě paralelních počítačů.md",
     "PDP/Otázky na zkoušku/27. n-rozměrná mřížka - definice, vlastnosti, směrování..md",
-    "attachments/Pasted image 20250520192014.png",
-    "attachments/Pasted image 20250520191959.png",
-    "PDP/MPI/MPI - Message Passing Interface.md",
+    "PDP/Otázky na zkoušku/26. n-rozměrná hyperkrychle - definice, vlastnosti, směrování..md",
     "PDP/Otázky na zkoušku/25. Základní grafové vlastnosti propojovacích topologií (řídké-husté topologie,hierarchicky rekurzivní topologie, vzdálenosti, regularita, souvislost, bisekční šířka, bipartitnost)..md",
     "PDP/Otázky na zkoušku/24. Kartézský součin grafů, uzlová symetrie..md",
-    "attachments/Pasted image 20250520185326.png",
     "PDP/Otázky na zkoušku/23. MPI paralelní systémy souborů..md",
-    "attachments/Pasted image 20250520184628.png",
-    "attachments/Pasted image 20250520184540.png",
     "PDP/Otázky na zkoušku/22. MPI diskuze různých implementací permutace cyklický posuv..md",
     "PDP/Otázky na zkoušku/21. MPI návratové hodnoty funkcí a ošetření chyb..md",
     "PDP/Otázky na zkoušku/20. MPI sondování příchodu zprávy..md",
     "PDP/Otázky na zkoušku/19. MPI neblokující komunikační operace a způsoby zjištění jejich dokončení,stavové objekty.md",
     "PDP/Otázky na zkoušku/18. MPI blokující komunikační operace a jejich komunikační módy, stavové objekty.md",
-    "PDP/Otázky na zkoušku/17. OpenMP+MPI spolupráce procesů a vláken..md",
-    "PDP/NI-PDP Běh 2025.md",
-    "PDP/Otázky na zkoušku/16. OpenMP základní myšlenky paralelního p-cestného MergeSortu..md",
-    "attachments/Pasted image 20250520153702.png",
-    "PDP/Otázky na zkoušku/15. OpenMP základní myšlenky paralelizace 2-cestného MergeSortu..md",
-    "attachments/Pasted image 20250520145937.png",
-    "PDP/Otázky na zkoušku/14. OpenMP základní myšlenky paralelizace QuickSortu a paralelního rozdělení..md",
-    "PDP/Otázky na zkoušku/13. OpenMP formáty pro uložení řídkých matic a paralelizace násobení řídké matice vektorem..md",
-    "PDP/Otázky na zkoušku/12. OpenMP paralelizace násobení hustých matic..md",
+    "attachments/Pasted image 20250521160926.png",
+    "attachments/Pasted image 20250521154049.png",
+    "attachments/Pasted image 20250521130812.png",
+    "attachments/Pasted image 20250521130801.png",
+    "attachments/Pasted image 20250521122527.png",
+    "attachments/Pasted image 20250521122346.png",
+    "attachments/Pasted image 20250521122028.png",
+    "attachments/Pasted image 20250521120722.png",
+    "attachments/Pasted image 20250521111738.png",
+    "attachments/Pasted image 20250521111009.png",
     "attachments",
     "PDP/Images",
     "PDP/Otázky na zkoušku",
