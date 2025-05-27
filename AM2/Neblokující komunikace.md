@@ -1,0 +1,3 @@
+- Existuje v mnoha jazycích a frameworkách
+- Jedná se o obecný princip, ale my se budeme bavit o JavaScriptu
+- 

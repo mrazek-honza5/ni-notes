@@ -1,0 +1,5 @@
+- Aplikace, která je použitelná v cloudu
+	- Škáluje výpočetní prostředky
+	- Poskytuje API
+- Výchozí technologií je [[Kubernetes]]
+- Tento pojem je zadefinovaný
