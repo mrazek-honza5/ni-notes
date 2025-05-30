@@ -17,7 +17,7 @@
 	- Lepší latence, pokud je interval mezi zprávami nejednotný
 - Problémy
 	- Při velkém počtu zpráv může být výkon horší než u pollingu
-### Chunking
+### Chunking / streaming
 - Server odesílá aktualizace dat přes otevřené spojení
 - Toto spojení se nastaví pomocí HTTP hlavičky (`Transfer-Encoding: chunked`)
 - Problémy:

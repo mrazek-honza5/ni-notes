@@ -1,10 +1,9 @@
-- Kód, který běží ve speciálním vlákně, které neblokuje jiné
-- Každý worker běží v event loopu a komunikuje skrze zasílání zpráv
+- Umožňuje spustí kód, který běží ve speciálním vlákně a neblokuje jiné
+- Každý worker běží ve vlastním event loopu a komunikuje skrze zasílání zpráv
 - Může dělat cokoliv, ale nemanipuluje s DOM
 	- Může založit další workery
-
 # Typy
 ## Dedikovaný worker 
 - Přístupný je pouze skriptu, který ho vytvořil
 ## Sdílený worker
-- Přístupný více skripty (ifram)
+- Přístupný více skripty (`iframe`)

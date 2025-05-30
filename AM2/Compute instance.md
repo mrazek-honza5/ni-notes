@@ -1,0 +1,8 @@
+- Výpočetní jednotka v rámci [[Datové centrum|datového centra]]
+- Má navolené hodnoty
+	- Shape - množství paměti a procesorů, které instance potřebuje
+	- Režim nasazení instance
+		- Virtual Machine - multitenant model. Využívá hypervisor k
+		- Bare metal - mám celý server pro sebe. Máme zde možnost vlastního hypervizoru.
+		- DVM - také single tenant model, akorát mi CSP dodává i hypervizor
+- Základem virtuálního stroje je poté [[Image]]

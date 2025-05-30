@@ -1,0 +1,8 @@
+- Šablona virtuálního disku s OS
+- Může obsahovat i jiný software, knihovny apod.
+- Je uložený na boot volume
+- Jsou dostupné rozmanité základní image
+	- CentOS, Ubuntu...
+	- Některé mají placené licence
+- Vlastní obrazy
+	- Dají se vytvořit nějakou derivací ze základního

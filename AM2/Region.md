@@ -1,4 +1,5 @@
-- Fyzická lokace na planetě, kde je umístěno datacentrum
+- Úzce souvisí s [[Cloud|cloudem]]
+- Fyzická lokace na planetě, kde je umístěno datové centrum
 - Ovlivňuje řadu věcí
 	- Latenci - uživatelé musí být k datacentru v rozumné vzdálenosti
 	- Cenu - někde jsou dražší energie apod.

@@ -1,0 +1,16 @@
+- Uvažujeme tady managed load balancer (tedy není v naší správě)
+- Funguje na jednom ze dvou principů
+	- Aplikační
+	- Síťový
+		- Funguje na bázi **DNATu** 
+- Je vysoce dostupný, dostupnost zaštiťuje SLA od poskytovatele
+- Load balancer si můžeme do jisté míry nakonfigurovat
+	- Jaké bude podporovat protokoly (např. HTTP, WebSocket)
+	- Jak bude fungovat SSL
+- Podporuje také rozkládání zátěže skrze více [[Datové centrum|datových center]]
+	- To umožňuje rychlé zajištění failoveru
+	- Load balancer má také floating-ip a je jich v rámci [[VCN - Virtual Cloud Network|VCN]] více
+		- Floating adresu lze přenést z jednoho systému na jiný (to se hodí v případě výpadku)
+		- Samotný přenos funguje díky ARP protokolu
+	- V případě výpadku load balanceru musí klient začít komunikovat s pasivním load balancerem
+		- 

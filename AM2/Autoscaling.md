@@ -1,0 +1,5 @@
+- Automatický nástroj pro správu [[Compute instance|instancí]]
+- K tomuto používá tzv. pool instancí
+	- Má nějaké limity (minimální a maximální počet instancí)
+	- Ten se přizpůsobuje vytížení, například podle využití CPU
+- Po naškálování je tady tzv. *cooldown*, kdy je systém stále naškálovaný a kontroluje využití CPU (může to být např. 5 minut.)

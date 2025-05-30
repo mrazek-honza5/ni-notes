@@ -2,3 +2,6 @@
 - Kromě firewallu a routovací tabulky musíme tedy zprovoznit jeden z peeringů
 	- Lokální peering - funguje v rámci jednoho regionu
 	- Remote peering - funguje v rámci více regionů
+	- Propojení s on-premise datovým centrem
+		- Je potřeba rychlá linka (poskytovatel připojení to zajišťuje, ale stojí to dost peněz, neboť se jedná o dedikovanou linku k CSP)
+		- A také zabezpečená VPN
