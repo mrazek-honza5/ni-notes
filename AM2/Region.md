@@ -1,0 +1,7 @@
+- Fyzická lokace na planetě, kde je umístěno datacentrum
+- Ovlivňuje řadu věcí
+	- Latenci - uživatelé musí být k datacentru v rozumné vzdálenosti
+	- Cenu - někde jsou dražší energie apod.
+	- Regulace - například data uživatelů z EU musí být v EU
+	- Konektivitu k externím providerům (třeba jiní cloud provideři)
+- V rámci regionu jsou poté umístěna [[Datové centrum|datová centra]]

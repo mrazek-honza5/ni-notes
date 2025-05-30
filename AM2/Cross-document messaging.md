@@ -1,0 +1,2 @@
+- Mohu komunikovat například z `iframe` do hlavního dokumentu
+- Využívalo se to dřív 

@@ -1,0 +1,4 @@
+- Jedná se o komunikaci mezi dvěma [[VCN - Virtual Cloud Network|VCN]]
+- Kromě firewallu a routovací tabulky musíme tedy zprovoznit jeden z peeringů
+	- Lokální peering - funguje v rámci jednoho regionu
+	- Remote peering - funguje v rámci více regionů

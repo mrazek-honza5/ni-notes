@@ -1,0 +1,2 @@
+- Problém, který nastává s frontou zpráv
+- Když první zpráva na začátku fronty dlouho trvá, tak blokuje ostatní, již dokončené zprávy

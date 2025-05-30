@@ -8,3 +8,7 @@
 - Vlákno je rezervováno pro jeden požadavek po celou dobu výpočtu
 - Když vlákno přistupuje k jiným prostředkům (čtení z disku, jiné I/O operace), tak je zablokováno a čeká
 - Když se potom sejde více požadavků, tak budou příchozí spojení čekat
+
+## Velikost thread poolu
+- Thread pool musí být rozumně omezen
+- Když je jich příliš mnoho a nastane nějaký problém, tak může dojít k obrovské režii při přepínání vláken a systém se stane efektivně neresponzivním

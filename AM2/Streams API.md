@@ -1,0 +1,5 @@
+- Jedná se o součást [[Fetch API]]
+- Umožňuje přistoupit k datům, která ještě nebyla plně načtena
+	- Hodí se třeba když zpracováváme data po řádcích
+- Dobré využití pro JSON-L
+	- Varianta, kdy je objekt uložen na jednom řádku
