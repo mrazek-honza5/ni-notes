@@ -1,0 +1,32 @@
+- Mechanismus izolace procesů v Linuxu
+- Základ pro [[Kontejner|kontejnery]]
+- Obsahuje 7 výchozích namespaces
+	- **mnt**
+		- Izoluje mount pointy filesystému (například persistentní volume u dockeru)
+		- Omezuje pohled na globální hierarchii souborů
+		- Každý namespace má vlastní sadu mount pointů
+	- **uts**
+		- Obsahuje název *hostname* pro proces
+	- **ipc**
+		- Izoluje meziprocesy pro komunikaci mezi procesy (message queue, sdílená paměť...)
+	- **pid**
+		- Izoluje PID prostor využívaný kontejnerem (různé kontejnery mají uvnitř procesy se stejným PID)
+		- Každý kontejner má **init** proces, s PID 1
+	- **net**
+		- Síťový namespace
+		- Procesy mají vlastní rozhraní, směrovací tabulky a sokety
+		- Komunikace s externím networkem (např. jiným namespacem) je pomocí virtuálního ethernet bridge
+			- Ten zajišťuje routování pomocí *iptables*
+		- Na hostitelském systému je buď:
+			- NAT
+				- Preferovaná možnost
+				- Potřebuje **hairpinning** - komunikace uvnitř sítě přes veřejnou IP adresu 
+				- Umožňuje například komunikaci přes hostitele
+			- Userland proxy
+	- **user**
+		- Izoluje UID/GID
+	- **cgroup**
+		- Slouží k řízení výpočetních zdrojů
+- Po spuštění má by default každý proces defaultní namespace od každého typu (defaultně spolu mohou komunikovat) => žádná izolace
+- V jednom procesu může běžet více procesů (typicky využití stejného Network namespace)
+- Pokud je ale proces 

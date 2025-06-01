@@ -1,4 +1,5 @@
 - Šablona virtuálního disku s OS
+- Jedná se o základ pro [[Compute instance|instanci]]
 - Může obsahovat i jiný software, knihovny apod.
 - Je uložený na boot volume
 - Jsou dostupné rozmanité základní image

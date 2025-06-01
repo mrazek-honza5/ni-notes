@@ -7,3 +7,8 @@
 - Nezávisle nasaditelné, lehko nahraditelné
 - Organizované kolem funkcionalit
 - Implementace různými jazyky (polyglot aplikace)
+
+# Problémy
+- Má poměrně vysokou vstupní bariéru, ze začátku mají vývojáři problém s rozdělením odpovědností
+- Často se to přehání s návrhem mikroslužeb (příliš rozdrobené)
+- Zvyšuje se komplexita komunikace mezi službami

@@ -1,6 +1,3 @@
-- Zde vysvětlujeme na JavaScriptu
-
-# Runtime
 ![[Pasted image 20250529162020.png]]
 - Jsou zde 3 základní komponenty
 - Jedná se o základ asynchronního I/O
