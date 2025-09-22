@@ -15,4 +15,4 @@
 - Úlohy by neměly blokovat vlákno dlouho
 	- Na [[Concurrency (soubežnost) a typy úloh#I/O-bound úlohy|I/O-bound úlohy]] využít `async` a `await`
 	- Na [[Concurrency (soubežnost) a typy úloh#CPU-bound úlohy|CPU-bound úlohy]] využít [[Worker|workera]]
-- Úlohy se pohybují v tzv [[JavaScript Runtime|event loopu]]
+- Úlohy se pohybují v tzv [[JavaScript Runtime#Event-loop - událostní smyčka|event loopu]]

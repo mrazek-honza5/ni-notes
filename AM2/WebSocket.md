@@ -26,7 +26,7 @@
 			- Jedná se o případ, kdy útočník pošle request, kdy podvrhne data v cache proxy
 			- Dalším klientům potom proxy posílá útočníkem vložená data z cache
 		- Maskování potom pomocí XOR s klíčem zamaskuje obsah a server je potom demaskuje
-		- Maskovací klíč ne nepredikovatelný
+		- Maskovací klíč musí být nepredikovatelný
 	- Tělo - data samotná
 - Zpráva je poté reprezentována i několika framy (které se poté spojí)
 	- Zprávy se neprokládají, vždy jdou framy jedné zprávy, poté druhé zprávy

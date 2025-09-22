@@ -5,4 +5,4 @@
 - Jedná se o vyšší vrstvu oproti například [[Infrastructure as Code (IaC)#Terraform|Terraformu]]
 # Princip
 - Máme soubory zvané **manifesty**
-- Nástroj pro správu sleduje tyto manifesty a aplikuje jej na [[Kubernetes]] klastr
+- Nástroj pro správu (např. ArgoCD) sleduje tyto manifesty a aplikuje jej na [[Kubernetes]] klastr

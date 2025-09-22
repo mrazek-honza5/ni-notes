@@ -8,7 +8,6 @@
 	- Je to pomocí `ReadableStream` v `Response` body
 	- Funguje to díky [[Streams API]]
 	- Stream potom mohu číst díky `ReadableStream.getReader()`
-	- 
 # Ukázka
 ```js
 async function getData() {

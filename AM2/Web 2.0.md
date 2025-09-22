@@ -19,7 +19,7 @@
 	- Aktualizace dat z webových systémů
 - Toto umožňují například následující technologie
 	- [[Websocket]]
-	- [[Server-sent events]]
+	- [[SSE (Server Sent Events)]]
 ## Social web
 - Představuje prostor sociálních sítí
 - A algoritmy pro analýzu dat z těchto systémů

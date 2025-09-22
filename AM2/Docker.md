@@ -23,7 +23,6 @@
 - Jeden nebo více procesů běžících na izolovaném namespacu ve filesystému, poskytnutým [[#Image|obrazem]]
 - Umožňuje změny za běhu díky poslední vrstvě filesystému
 - Instance jsou tzv. *ephemeral*
-- 
 ## Klient
 - Aplikace komunikující s container enginem skrze API
 - Běžně třeba Docker CLI

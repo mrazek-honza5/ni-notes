@@ -1,6 +1,7 @@
 - Představen v rámci specifikace HTML5
 - Jedná se o API pro zpracování HTTP streamu pomocí DOM eventů
 - Prakticky realizuje [[Pushing a polling#Long polling|long polling]]
+- Může být problematické, pokud není realizováno přes HTTP2, kvůli limitu 6 spojení (když otevřu více tabů...)
 # Definice
 - Definuje **EventSource** interface, který obsahuje:
 	- Handlery - `onopen`, `onmessage`, `onerror`
@@ -19,8 +20,8 @@
 - Obnovení je automatické, klient specifikuje ID poslední zprávy, pomocí HTTP hlavičky `Last-Event-ID`
 - Server potom odesílá data, která navazují (i když už je třeba odeslal do zavřeného spojení)
 
-## Ukázka
-### Inicializace
+# Ukázka
+## Inicializace
 ```js
 if (window.EventSource != null) {
   var source = new EventSource('your_event_stream.php');
@@ -29,7 +30,7 @@ if (window.EventSource != null) {
 }
 ```
 
-### Definováni event handlerů
+## Definováni event handlerů
 ```js
 source.addEventListener('message', function(e) {
   // fires when new event occurs, e.data contains the event data
@@ -44,4 +45,19 @@ source.addEventListener('error', function(e) {
     // Connection was closed
   }
 }, false);
+```
+
+# Ukázka komunikace 
+```
+id: 12345\n
+data: first line\n
+data: second line\n\n
+
+data: {\n
+data: "msg": "hello world",\n
+data: "id": 12345\n
+data: }\n\n
+
+retry: 10000\n
+data: hello world\n\n
 ```

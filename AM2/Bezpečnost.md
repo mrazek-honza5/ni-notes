@@ -8,7 +8,7 @@
 	1. ClientHello - verze TLS, list cifer, TLS nastavení
 	2. ServerHello - verze TLS, vybraná cifra, certifikát
 	3. RSA nebo Diffie-Hellman výměna klíčů
-	4. Kontrola integrity zpráv, odeslání zašifrovaného textu "Finished"
+	4. Kontrola integrity zpráv, odeslání zašifrovaného textu "Finished". Šifrovací klíč je ten, který se domluvil Diffie-Hellmanem nebo RSA
 	5. Odeslání dat
 - Znázornění TLS handshaku: ![[Pasted image 20250529191752.png]]
 ## Módy TLS
