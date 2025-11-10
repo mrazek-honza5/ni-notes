@@ -1,0 +1,8 @@
+- Hlavní model pro popisování dat v [[Sémantický web|sémantickém webu]]
+- Skládá se z trojic
+	- `<subject> <predicate> <object>`
+	- subject, object = zdroje, které mezi sebou mají vztah
+	- predicate = vztah mezi objekty
+- Největším zdrojem je asi DBpedia - bere informace z Wikipedie a převádí je do RDF
+	- Toto je potom možné dotazovt pomocí SPARQL
+	- 

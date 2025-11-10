@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDB/XML.md",
+                "file": "SWE/Sémantický web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XML"
+              "title": "Sémantický web"
             }
           }
         ]
@@ -172,12 +172,17 @@
   },
   "active": "ba6a51fdebbf07f1",
   "lastOpenFiles": [
-    "PDB/XDM.md",
+    "SWE/RDF.md",
+    "SWE/Knowledge graf.md",
+    "PDB/Zápočet.md",
+    "PDB/SQL.md",
+    "attachments/Pasted image 20251109194248.png",
+    "attachments/Pasted image 20251109192216.png",
     "PDB/XML.md",
+    "PDB/XDM.md",
     "PDB/XPath.md",
     "PDB/XQuery.md",
     "attachments/Pasted image 20251103164500.png",
-    "PDB/SQL.md",
     "PDP/Otázky na zkoušku/48. Distribuované generování náhodné permutace posloupnosti 1...n, implementace v MPI..md",
     "PDP/Propojovací sítě/Propojovací sítě paralelních počítačů.md",
     "PDP/NI-PDP Běh 2025.md",
@@ -192,7 +197,6 @@
     "AM2/Browser.md",
     "AM2/Bezpečnost.md",
     "AM2/Aplikační server.md",
-    "SWE/Knowledge graf.md",
     "SWE/tutorials/hw01.txt",
     "SWE/tutorials/hw01.nt",
     "SWE/tutorials/1-xml.xml",
@@ -200,7 +204,6 @@
     "SWE/tutorials/1-triples.nt",
     "SWE/tutorials/1-triples.txt",
     "SWE/tutorials",
-    "SWE/RDF.md",
     "SWE/Sémantický web.md",
     "attachments/Pasted image 20250923094421.png",
     "SWE",
@@ -214,8 +217,6 @@
     "attachments/Pasted image 20250530230431.png",
     "attachments/Pasted image 20250530163033.png",
     "attachments/Pasted image 20250530145835.png",
-    "attachments/Pasted image 20250529224829.png",
-    "attachments/Pasted image 20250529214526.png",
     "AM2/Untitled",
     "AM2"
   ]
