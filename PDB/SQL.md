@@ -105,7 +105,7 @@
 - Index založený na funkci
 ## Údržba statistik
 - Neaktuální statistiky způsobují špatná rozhodnutí optimalizátoru
-- Neznamená to ale, že se aktualizují online - to nesmrdí mi
+- Neznamená to ale, že se aktualizují online
 
 ## Cena různých přístupů
 Příklad: `SELECT * FROM r WHERE a = 'x'`

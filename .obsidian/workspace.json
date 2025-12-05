@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDB/Search 2.0.md",
+                "file": "PDB/Zkouška.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Search 2.0"
+              "title": "Zkouška"
+            }
+          },
+          {
+            "id": "c789933dfb9baca2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PDB/SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL"
             }
           }
         ]
@@ -172,16 +186,18 @@
   },
   "active": "ba6a51fdebbf07f1",
   "lastOpenFiles": [
-    "PDB/Riak KV.md",
+    "attachments/Pasted image 20251205234403.png",
+    "PDB/SQL.md",
+    "PDB/Zkouška.md",
+    "PDB/Zápočet.md",
     "PDB/Search 2.0.md",
+    "PDB/Riak KV.md",
     "attachments/Pasted image 20251110170246.png",
     "attachments/Pasted image 20251110163519.png",
     "PDB/Key-value databáze.md",
-    "PDB/Zápočet.md",
     "SWE/Sémantický web.md",
     "SWE/RDF.md",
     "SWE/Knowledge graf.md",
-    "PDB/SQL.md",
     "attachments/Pasted image 20251109194248.png",
     "attachments/Pasted image 20251109192216.png",
     "PDB/XML.md",
@@ -201,7 +217,6 @@
     "AM2/XHR (XMLHttpRequest).md",
     "AM2/Datové centrum.md",
     "AM2/Browser.md",
-    "AM2/Bezpečnost.md",
     "SWE/tutorials/hw01.txt",
     "SWE/tutorials/hw01.nt",
     "SWE/tutorials/1-xml.xml",
