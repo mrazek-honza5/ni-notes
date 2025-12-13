@@ -88,6 +88,7 @@
 
 ### B-Tree Index:
 - Hierarchická struktura stromu (Balanced Tree).
+	- B+ strom - data/ukazatele jsou jen v listech, vnitřní nodes jsou navigační
 - Hodnoty jsou uspořádané ve stromové struktuře = efektivní vyhledávání, úpravy a mazání
 - Typicky 2-4 úrovně a velký faktor větvení (typicky stovky)
 - Každý uzel obsahuje klíče a ukazatele na potomky, přičemž listové uzly obsahují ukazatele na fyzická data.
@@ -99,6 +100,7 @@
 - Každá jedinečná hodnota sloupce má svou vlastní bitovou mapu. T.j. pro bitmap index na sloupci se vytvoří 2D mapa.
 - Rychlé, úsporné na místo
 - Vhodné pro nízkou kardinalitu - např. pohlaví, kategorie
+- Nevhodné pro časté zápisy
 
 ### Příklady použití
 #### B-Tree index
@@ -204,9 +206,11 @@ compary only groupd from R and S with same hash value
 ```
 
 - Dobré pro velké tabulky a test na rovnost
+- Probíhá ve dvou fázích
+	1. Vytvoření hashovací tabulky z menší relace (Build)
+	2. Procházení větší relace a hledání shody v menší (Probe)
 
 ### Join pomocí speciálních struktur (index lookup, společný cluster)
-
 
 ## Co to je prováděcí plán (execution plan), jak vypadá a kdy vzniká? Vyplatí se ho cachovat? Pokud ano, za jakých okolností?
 
@@ -375,7 +379,7 @@ Hlavní rozdíl tedy spočívá v tom, že relační tabulka pouze využívá sl
 - Lepší výkon: Potřebujete zpracovat logiku přímo na úrovni databáze (např. metody, funkce nebo složité indexy na objektové typy).
 Nevýhody:
 - Vyšší složitost správy databáze.
-    
+- Tzv. Impedance mismatch - nesoulad mezi objektovým světem aplikace a relačním světem databáze
 
 #### Použití ORM:
 - Rychlý vývoj aplikací: Pokud je potřeba rychle vytvořit aplikaci a pracovat s daty bez psaní SQL.
@@ -394,8 +398,8 @@ Nevýhody:
 	- Dostupnost (Availability): Pokud node funguje, musí odpovídat na požadavky
 	- Odolnost k přerušení (Partition tolerance): systém musí fungovat, i když se vypadne část uzlů
 - Vybírají se tedy ty dvojice, které nejvíce požadujeme
-	- Reálně se vybírá mezi AP a CP
-	- Relační databáze jsou většinou CA
+	- U distribuovaných systému se reálně vybírá mezi AP a CP
+	- Tradiční relační databáze jsou z tohoto pohledu zpravidla CA
 ## Vysvětlete rozdíly mezi koncepcí ACID a BASE.
 - ACID
 	- Atomicity - transakce se provede celá, nebo vůbec
@@ -468,7 +472,7 @@ Nevýhody:
 - Rozděluje data na části (shardy)
 - Tyto části distribuuje mezi uzly
 - Výzvy
-	- Uniformní rozložení dat
+	- Uniformní rozložení dat - volba dobrého klíče (aby nedošlo k tzv. Hotspottingu)
 	- Balancovaná zátěž
 	- Respektování fyzických lokalit
 
@@ -635,7 +639,7 @@ Nevýhody:
 - Dobré pro analytické dotazy
 - Efektivní pro velké objemy dat
 - Dobrá škálovatelnost
-
+- Vysoká rychlost zápisu
 ### Nevýhody wide-column DB
 - Nepodporují join operace
 - Místo join se musí data denormalizovat
@@ -675,6 +679,10 @@ V praxi se přístupy mixují - například MongoDB umožňuje validaci i když 
 	- Umožňuje však nastavit validace pomocí JSON Schema
 - Příbuzná data se buď embedují, nebo se na ně dá odkazovat pomocí ID (je ale vhodnější embedovat)
 - Built in podpora pro replikaci a sharding
+	- Řešeno pomocí Replica Setu (master slave architektura)
+		- Primární a sekundární uzly
+		- Zápisy jdou pouze na primární
+		- Pokud primární spadne, volí se nový
 
 ### Silné stránky:
 1. Flexibilní schéma
@@ -727,6 +735,7 @@ V praxi se přístupy mixují - například MongoDB umožňuje validaci i když 
 ### Silné stránky
 - Přirozená reprezentace propojených dat
 - Dobré pro analýzu závislostí
+- ACID compliant - garantuje transakční zpracování
 
 ### Použití
 - Vhodné pro
@@ -747,7 +756,7 @@ V praxi se přístupy mixují - například MongoDB umožňuje validaci i když 
 	- Bucket je logická kolekce key-value objektů (dá se přiřovnat k tabulce například)
 	- Objekt - jeden key-value pár
 - Umožňuje vyhledávat v hodnotách, pomocí Search 2.0
-- Řešení konfliktů pomocí CRDTs
+- Řešení konfliktů pomocí vector clocks a CRDTs
 - Sharding a replikace (peer to peer)
 	- Řešeno pomocí Riak Ring
 		- Má konzistentní hashovací funkci, která hashuje jméno bucketu a object key to 160bitového celého čísla => Riak Ring
