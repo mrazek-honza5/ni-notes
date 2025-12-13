@@ -186,9 +186,10 @@
   },
   "active": "ba6a51fdebbf07f1",
   "lastOpenFiles": [
+    "PDB/XQuery.md",
+    "PDB/Zkouška.md",
     "attachments/Pasted image 20251205234403.png",
     "PDB/SQL.md",
-    "PDB/Zkouška.md",
     "PDB/Zápočet.md",
     "PDB/Search 2.0.md",
     "PDB/Riak KV.md",
@@ -203,7 +204,6 @@
     "PDB/XML.md",
     "PDB/XDM.md",
     "PDB/XPath.md",
-    "PDB/XQuery.md",
     "attachments/Pasted image 20251103164500.png",
     "PDP/Otázky na zkoušku/48. Distribuované generování náhodné permutace posloupnosti 1...n, implementace v MPI..md",
     "PDP/Propojovací sítě/Propojovací sítě paralelních počítačů.md",
@@ -230,7 +230,6 @@
     "attachments/Pasted image 20250601122530.png",
     "attachments/Pasted image 20250601103904.png",
     "Untitled.canvas",
-    "attachments/Pasted image 20250530230431.png",
     "AM2/Untitled",
     "AM2"
   ]
