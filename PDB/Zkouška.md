@@ -408,7 +408,7 @@ Nevýhody:
 	- Durability - provedené změny jsou bezpečně uloženy
 - BASE
 	- Basically Available - Systém by měl prioritizovat dostupnost
-	- Soft-state - různé uzly nemusí vracet stejná data
+	- Soft-state - různé uzly nemusí vracet stejná data a data se mohou na pozadí měnit, bez uživatelova zásahu (synchronizace)
 	- Eventually consistent - systém garantuje, že bude za nějakou dobu konzistentní
 
 ### Rozdíly obecně
@@ -520,6 +520,10 @@ Nevýhody:
 	- Volume - velké objemy dat
 	- Velocity - vysoká rychlost generování nových dat
 	- Variety - různé formáty, strukturovaná i nestrukturovaná data
+- Další V
+	- Veracity - různá kvalita, integrita a přesnost dat
+	- Variability - data přichází z různých zdrojů a musí se rozhodnout, která jsou relevantní
+	- Value - byznysová hodnota dat
 - Tyto data dali potřebu vzniku nových technologií k jejich zpracování (v zásadě proto vidíme boom NoSQL databází)
 
 # Porovnání DB modelů

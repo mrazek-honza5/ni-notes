@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "3c991491ac20da37",
@@ -186,6 +187,7 @@
   },
   "active": "ba6a51fdebbf07f1",
   "lastOpenFiles": [
+    "Zkouška.pdf",
     "PDB/XQuery.md",
     "PDB/Zkouška.md",
     "attachments/Pasted image 20251205234403.png",
